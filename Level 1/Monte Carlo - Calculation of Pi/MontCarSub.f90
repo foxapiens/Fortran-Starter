@@ -11,7 +11,7 @@ Subroutine Mc_sub (totalstep)
   a=2*y
   b=2*x
     if (a<sqrt(4.0-b**2)) then  !
-      write(1,*) a,b          ! Çemberin eğri kenara kavuşması
+      write(1,*) a,b          ! edge of circle reachs to the container
       insidepoint=insidepoint+1 
     end if
   end do
